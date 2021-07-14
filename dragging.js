@@ -1,5 +1,8 @@
 // Make the DIV element draggable:
-dragElement(document.getElementById("circle"));
+dragElement(document.getElementById("circle01"));
+dragElement(document.getElementById("circle02"));
+dragElement(document.getElementById("square01"));
+dragElement(document.getElementById("square02"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
