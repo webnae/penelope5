@@ -100,6 +100,24 @@ p {
   right: 460px;
 }
 
+#eat {
+  background: beige;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 780px;
+  right: 720px;
+}
+
+#night {
+  background: beige;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 820px;
+  right: 300px;
+}
+
 .left {
   padding: 25px;
   background: bisque;
@@ -133,6 +151,24 @@ p {
   margin: 20px;
   position: absolute;
   left: 600px;
+}
+
+.middleB {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: absolute;
+  left: 370px;
+}
+
+.middle-Milo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: absolute;
+  left: 370px;
 }
 
 .images7 {

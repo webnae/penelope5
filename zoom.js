@@ -211,3 +211,22 @@ modal.onclick = function() {
           img05.className = "modal-content";
         }, 400);
           }
+
+//////////////////
+
+   var modal = document.getElementById('myModal11');
+
+   var img = document.getElementById('myImg11');
+   var modalImg = document.getElementById("img11");
+   img.onclick = function(){
+       modal.style.display = "block";
+       modalImg.src = this.src;
+   }
+
+   modal.onclick = function() {
+       img05.className += " out";
+       setTimeout(function() {
+          modal.style.display = "none";
+          img05.className = "modal-content";
+        }, 400);
+          }

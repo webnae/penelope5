@@ -5,6 +5,8 @@ dragElement(document.getElementById("callie"));
 dragElement(document.getElementById("square02"));
 dragElement(document.getElementById("wink"));
 dragElement(document.getElementById("climb"));
+dragElement(document.getElementById("eat"));
+dragElement(document.getElementById("night"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
